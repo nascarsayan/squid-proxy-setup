@@ -29,5 +29,4 @@ RUN chmod +x startup.sh
 COPY rotate_access_logs_and_cleanup.sh .
 RUN chmod +x rotate_access_logs_and_cleanup.sh
 
-EXPOSE 3128 3129
 CMD ["bash", "startup.sh"]
